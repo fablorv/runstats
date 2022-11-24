@@ -1,4 +1,5 @@
 let express = require('express')
+require('dotenv').config()
 let cors = require('cors')
 const axios = require('axios')
 
@@ -7,7 +8,7 @@ let app = express()
 
 app.use(cors())
 
-const ap_key = "RGAPI-6c249320-4b49-4bd9-9673-a24fa01039fc"
+const ap_key = process.env.myapi
 //get the name and how many games to look down from the user
 app.get('/gameinfo' , async (req, res) =>{
 	const playerName = req.query.username

@@ -48,7 +48,7 @@ function Runes(props: any){
 			<div className="runes">
 				<p> this is where runes stats show</p>
 				{truerune}
-				</p> what if i wanna make a monkey dance here ? </p>
+				<p> what if i wanna make a monkey dance here ? </p>
 			</div>
 		)
 	
