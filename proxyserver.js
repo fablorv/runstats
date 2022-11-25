@@ -1,7 +1,11 @@
-let express = require('express')
+
 require('dotenv').config()
+let express = require('express')
 let cors = require('cors')
 const axios = require('axios')
+const fetchUrl = require("fetch").fetchUrl
+
+
 
 
 let app = express()
@@ -16,11 +20,12 @@ app.get('/gameinfo' , async (req, res) =>{
 
 	function getplayerpuuid(){
 			return axios.get("https://euw1.api.riotgames.com" + "/lol/summoner/v4/summoners/by-name/"+ playerName +"?api_key=" + ap_key).then(response => {
-				console.log(response.data)
-				return response.data.puuid
+
+				return (response.data.puuid)
 			}).catch(err => err);
 	}
 	const puuid = await getplayerpuuid()
+	console.log(puuid)
 	function gamesids(){
 		return axios.get("https://europe.api.riotgames.com"+"/lol/match/v5/matches/by-puuid/"+ puuid+ "/ids?start=0&count="+moregames +"&api_key="+ ap_key).then(response =>{
 			return(response.data)
@@ -29,7 +34,7 @@ app.get('/gameinfo' , async (req, res) =>{
 	const gameids = await gamesids()
 	let users = []
 	let promises = []
-	for (i = 0; i <gameids.length  ; i++){
+	for (let i = 0; i <gameids.length  ; i++){
 		const matchid = gameids[i]
 		const matchadata = await axios.get("https://europe.api.riotgames.com" +"/lol/match/v5/matches/"+matchid+"?api_key="+ ap_key).then(response =>response.data).catch(err => err)
 		users.push(matchadata)
@@ -37,7 +42,8 @@ app.get('/gameinfo' , async (req, res) =>{
 			
 		
 	}
-	console.log(users,"thisis ids","this is from react", moregames)
+				
+	console.log(users,"thisis ids","this is from react", moregames, playerName)
 
 
 

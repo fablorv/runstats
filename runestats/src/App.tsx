@@ -18,7 +18,7 @@ function App() {
 			console.log(error);
 		})
 	}
-	
+	let propo = [gameinfo, name]	
 	console.log(gameinfo)
   return (
     <div className="App">
@@ -27,20 +27,26 @@ function App() {
 	  <input type="number" min="1" max="20" onChange={e => setMore(e.currentTarget.value)}></input>
 	  <button onClick={getinfo}> gettin info pog </button>
 	  
-	  <Runes state={gameinfo}/>
+	  <Runes {...propo}/>
 
     </div>
   );
 }
 
-function Runes(props: any){
-	console.log("testing props",props.state)
-	let propsy = props.state
-	let truerune 
-	if(propsy[0]){
-		 truerune=propsy.map((id: any) => <p key={id.info.gameDuration +1 }> {id.info.gameId}</p>) 
-			
-			
+function Runes(propo: any){
+	console.log("testing props",propo)
+	let propsy = propo.gameinfo
+	let truerune
+
+	let perks
+	if(propsy){
+		let array = propsy[0].info.participants
+		const i = propsy[0].info.participants.findIndex((e:any) => e.summonerName ==="9i_12Ju6CJLzHVZEggJOK5kOTMSQsWrnMbqIkahDJcf4rTEcScEkjIqlfXmPlOMtANSMHwCzyObZdQ")
+		if(i >-1){
+			 truerune=propsy.map((id: any) => <p key={id.info.gameDuration +1 }> {id.info.gameId}</p>) 
+			perks = propsy.map((id: any) => <p key={id.info.gameDuration +2 }> {id.info.participants[i].perks.statPerks.flex} {id.info.participants[i].perks.statPerks.offense}  {id.info.participants[i].perks.statPerks.defense} </p>) 
+		}else console.log("couldnt find the player")	
+				
 	}else truerune= <p> no states yet </p>
 
 
@@ -48,7 +54,7 @@ function Runes(props: any){
 			<div className="runes">
 				<p> this is where runes stats show</p>
 				{truerune}
-				<p> what if i wanna make a monkey dance here ? </p>
+				{perks}
 			</div>
 		)
 	
