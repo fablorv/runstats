@@ -33,6 +33,8 @@ app.get('/gameinfo' , async (req, res) =>{
 	}
 	const gameids = await gamesids()
 	let users = []
+
+	users.push(puuid)
 	let promises = []
 	for (let i = 0; i <gameids.length  ; i++){
 		const matchid = gameids[i]

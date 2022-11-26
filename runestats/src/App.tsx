@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import axios from 'axios';
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
 		})
 	}
 	let propo = [gameinfo, name]	
-	console.log(gameinfo)
   return (
     <div className="App">
 	  <h1> making runes stats ez to get </h1>
@@ -34,20 +33,30 @@ function App() {
 }
 
 function Runes(propo: any){
-	console.log("testing props",propo)
-	let propsy = propo.gameinfo
+	let propsy = propo[0]
 	let truerune
 
 	let perks
-	if(propsy){
-		let array = propsy[0].info.participants
-		const i = propsy[0].info.participants.findIndex((e:any) => e.summonerName ==="9i_12Ju6CJLzHVZEggJOK5kOTMSQsWrnMbqIkahDJcf4rTEcScEkjIqlfXmPlOMtANSMHwCzyObZdQ")
-		if(i >-1){
-			 truerune=propsy.map((id: any) => <p key={id.info.gameDuration +1 }> {id.info.gameId}</p>) 
-			perks = propsy.map((id: any) => <p key={id.info.gameDuration +2 }> {id.info.participants[i].perks.statPerks.flex} {id.info.participants[i].perks.statPerks.offense}  {id.info.participants[i].perks.statPerks.defense} </p>) 
-		}else console.log("couldnt find the player")	
-				
-	}else truerune= <p> no states yet </p>
+
+	useEffect(()=>{
+		 async function getinfing(){
+
+			console.log("testing props",propo)
+			let array =await  propsy
+			const i =await  propsy[1].info.participants.findIndex((e:any) => e.puuid === propo[0][0])
+			console.log(i)
+			if(false){
+				let nopuuid = propsy.shift()
+				console.log(propsy, "from iu < iug")
+				 truerune= propsy.map((id: any) => <p key={id.info.gameDuration +1 }> {id.info.gameId}</p>) 
+				perks = await propsy.map((id: any) => <p key={id.info.gameDuration +2 }> {id.info.participants[i].perks.statPerks.flex} {id.info.participants[i].perks.statPerks.offense}  {id.info.participants[i].perks.statPerks.defense} </p>) 
+		
+			}else truerune= <p> no states yet </p>
+		}
+		getinfing()
+					
+	},[propo])
+	console.log("this should be true rune:", truerune)
 
 
 	return(
