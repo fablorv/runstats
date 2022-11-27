@@ -7,7 +7,6 @@ function App() {
 
 	const [gameinfo , setGameinfo] = useState("")
 	const [name , setName ] = useState("")
-	const [number ,setNumber] = useState("")
 	const [more , setMore] = useState('5')
 
 
@@ -33,29 +32,36 @@ function App() {
 }
 
 function Runes(propo: any){
+	const [truerune , setTruerune] = useState()
+	const [perks , setPerks] = useState()
 	let propsy = propo[0]
-	let truerune
 
-	let perks
 
 	useEffect(()=>{
 		 async function getinfing(){
 
 			console.log("testing props",propo)
-			let array =await  propsy
-			const i =await  propsy[1].info.participants.findIndex((e:any) => e.puuid === propo[0][0])
+			const i =  propsy[1].info.participants.findIndex((e:any) => e.puuid === propo[0][0])
 			console.log(i)
-			if(false){
-				let nopuuid = propsy.shift()
+			if(i >-1){
+				propsy.shift()
 				console.log(propsy, "from iu < iug")
-				 truerune= propsy.map((id: any) => <p key={id.info.gameDuration +1 }> {id.info.gameId}</p>) 
-				perks = await propsy.map((id: any) => <p key={id.info.gameDuration +2 }> {id.info.participants[i].perks.statPerks.flex} {id.info.participants[i].perks.statPerks.offense}  {id.info.participants[i].perks.statPerks.defense} </p>) 
-		
-			}else truerune= <p> no states yet </p>
+				setTruerune(propsy.map((id: any) => <p key={id.info.gameDuration +1 }> {id.info.gameId}</p>) )
+				setPerks(propsy.map((id: any) =><> <p key={id.info.gameDuration +2 }> 
+					{id.info.participants[i].perks.statPerks.flex} {id.info.participants[i].perks.statPerks.offense}  {id.info.participants[i].perks.statPerks.defense} SPACEHERE FFS {id.info.participants[i].perks.styles[0].selections[0].perk} {id.info.participants[i].perks.styles[0].selections[0].var1} {id.info.participants[i].perks.styles[0].selections[0].var2} {id.info.participants[i].perks.styles[0].selections[0].var3} </p> 
+				<p key={id.info.gameDuration +45 }> SPACEHERE FFS {id.info.participants[i].perks.styles[0].selections[1].perk} {id.info.participants[i].perks.styles[0].selections[1].var1} {id.info.participants[i].perks.styles[0].selections[1].var2} {id.info.participants[i].perks.styles[0].selections[1].var3}</p>
+				<p key={id.info.gameDuration +44 }> SPACEHERE FFS {id.info.participants[i].perks.styles[0].selections[2].perk} {id.info.participants[i].perks.styles[0].selections[2].var1} {id.info.participants[i].perks.styles[0].selections[2].var2} {id.info.participants[i].perks.styles[0].selections[2].var3}</p>
+				<p key={id.info.gameDuration +42 }> SPACEHERE FFS {id.info.participants[i].perks.styles[0].selections[3].perk} {id.info.participants[i].perks.styles[0].selections[3].var1} {id.info.participants[i].perks.styles[0].selections[3].var2} {id.info.participants[i].perks.styles[0].selections[3].var3}</p>
+				<p key={id.info.gameDuration +41 }> SPACEHERE FFS {id.info.participants[i].perks.styles[1].selections[0].perk} {id.info.participants[i].perks.styles[1].selections[0].var1} {id.info.participants[i].perks.styles[1].selections[0].var2} {id.info.participants[i].perks.styles[1].selections[0].var3}</p>
+				<p key={id.info.gameDuration +34 }> SPACEHERE FFS {id.info.participants[i].perks.styles[1].selections[1].perk} {id.info.participants[i].perks.styles[1].selections[1].var1} {id.info.participants[i].perks.styles[1].selections[1].var2} {id.info.participants[i].perks.styles[1].selections[1].var3}</p></>) )
+				return {truerune , perks}	
+			}else console.log("didnt work")
+
+			console.log(getinfing(),"this is hte function")
 		}
 		getinfing()
 					
-	},[propo])
+	},[propsy])
 	console.log("this should be true rune:", truerune)
 
 
