@@ -1,0 +1,94 @@
+{
+	"5008":"./perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+	"5002":"./perk-images/StatMods/StatModsArmorIcon.png",
+	"5003":"./perk-images/StatMods/StatModsMagicResIcon.png",
+	"5005":"./perk-images/StatMods/StatModsAttackSpeedIcon.png",
+	"5007":"./perk-images/StatMods/StatModsCDRScalingIcon.png",
+	"5001":"./perk-images/StatMods/StatModsHealthScalingIcon.png",
+
+
+
+
+	"8100" : "7200_Domination.png",
+	"8126" : "./perk-images/styles/Domination/CheapShot.png",
+	"8128" : "./perk-images/styles/Domination/DarkHarvest.png",
+	"8112" : "./perk-images/styles/Domination/Electrocute.png",
+	"8138" : "./perk-images/styles/Domination/EyeBallCollection.png",
+	"8120" : "./perk-images/styles/Domination/GhostPoro.png",
+	"8139" : "./perk-images/styles/Domination/GreenTerror_TasteOfBlood.png",
+	"9923" : "./perk-images/styles/Domination/HailOfBlades.png",
+	"8134" : "./perk-images/styles/Domination/IngeniousHunter.png",
+	"8124" : "./perk-images/styles/Domination/Predator.png",
+	"8105" : "./perk-images/styles/Domination/RelentlessHunter.png",
+	"8143" : "./perk-images/styles/Domination/SuddenImpact.png",
+	"8135" : "./perk-images/styles/Domination/TreasureHunter.png",
+	"8106" : "./perk-images/styles/Domination/UltimateHunter.png",
+	"8136" : "./perk-images/styles/Domination/ZombieWard.png",
+
+
+
+
+	"8300": "./perk-images/styles/7203_Whimsy.png",
+	"8345": "./perk-images/styles/Inspiration/BiscuitDelivery.png",
+	"8347": "./perk-images/styles/Inspiration/CosmicInsight.png",
+	"8369": "./perk-images/styles/Inspiration/FirstStrike.png",
+	"8321": "./perk-images/styles/Inspiration/FutresMarket.png",
+	"8351": "./perk-images/styles/Inspiration/GlacialAugment.png",
+	"8306": "./perk-images/styles/Inspiration/HextechFlashtraption.png",
+	"8304": "./perk-images/styles/Inspiration/MagicalFootwear.png",
+	"8316": "./perk-images/styles/Inspiration/MinionDematerializer.png",
+	"8313": "./perk-images/styles/Inspiration/PerfectTiming.png",
+	"8352": "./perk-images/styles/Inspiration/TimeWarpTonic.png",
+	"8360": "./perk-images/styles/Inspiration/UnsealedSpellbook.png",
+	"8410": "./perk-images/styles/Inspiration/ApproachVelocity.png",
+
+
+	"precision":"./perk-images/styles/7021_precision.png",
+	"8010":"./perk-images/styles/Precision/Conqueror.png",
+	"8014":"./perk-images/styles/Precision/CoupDeGrace.png",
+	"8017":"./perk-images/styles/Precision/CutDown.png",
+	"8021":"./perk-images/styles/Precision/FleetFootWork.png",
+	"9104":"./perk-images/styles/Precision/LegendAlacrity.png",
+	"9103":"./perk-images/styles/Precision/LegendBloodline.png",
+	"9105":"./perk-images/styles/Precision/LegendTenacity.png",
+	"8008":"./perk-images/styles/Precision/LethalTempoTemp.png",
+	"9101":"./perk-images/styles/Precision/Overheal.png",
+	"8009":"./perk-images/styles/Precision/PresenceOfMind.png",
+	"8005":"./perk-images/styles/Precision/PressTheAttack.png",
+	"9111":"./perk-images/styles/Precision/Triumpth.png",
+	"8299":"./perk-images/styles/Precision/LastStand.png",
+
+
+
+	"sorcery":"./perk-images/styles/7202_Sorcery",
+	"8275":"./perk-images/styles/Sorcery/6361.png",
+	"8233":"./perk-images/styles/Sorcery/AbsoluteFocus.png",
+	"8229":"./perk-images/styles/Sorcery/ArcaneComet.png",
+	"8234":"./perk-images/styles/Sorcery/CelerityTemp.png",
+	"8236":"./perk-images/styles/Sorcery/GatheringStorm.png",
+	"8226":"./perk-images/styles/Sorcery/ManaFlowBand.png",
+	"8230":"./perk-images/styles/Sorcery/PhaseRush.png",
+	"8224":"./perk-images/styles/Sorcery/Pokeshield.png",
+	"8237":"./perk-images/styles/Sorcery/Scorch.png",
+	"8214":"./perk-images/styles/Sorcery/SummonAery.png",
+	"8210":"./perk-images/styles/Sorcery/Transcendence.png",
+	"8232":"./perk-images/styles/Sorcery/Waterwalking.png",
+	"8275":"./perk-images/styles/Sorcery/6361.png",
+
+
+	"resolve":"./perk-images/styles/7204_Resolve.png",
+	"bones":"./perk-images/styles/Resolve/IronSkin.png",
+	"8473":"./perk-images/styles/Resolve/BonePlating.png",
+	"chrysty":"./perk-images/styles/Resolve/Chrysalis.png",
+	"8429":"./perk-images/styles/Resolve/Conditioning.png",
+	"8446":"./perk-images/styles/Resolve/Demolish.png",
+	"8463":"./perk-images/styles/Resolve/FontOfLife.png",
+	"8437":"./perk-images/styles/Resolve/GraspOfTheUndying.png",
+	"8465":"./perk-images/styles/Resolve/Guardian.png",
+	"8401":"./perk-images/styles/Resolve/MirrorShell.png",
+	"8451":"./perk-images/styles/Resolve/Overgrowth.png",
+	"8453":"./perk-images/styles/Resolve/Revitalize.png",
+	"8444":"./perk-images/styles/Resolve/SecondWind.png",
+	"8242":"./perk-images/styles/Resolve/Unflinching.png",
+	"8439":"./perk-images/styles/Resolve/VeteranAftershock.png"
+}

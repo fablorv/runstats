@@ -1,0 +1,94 @@
+{
+	"5008":"dragontail/img/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
+	"5002":"dragontail/img/perk-images/StatMods/StatModsArmorIcon.png",
+	"5003":"dragontail/img/perk-images/StatMods/StatModsMagicResIcon.png",
+	"5005":"dragontail/img/perk-images/StatMods/StatModsAttackSpeedIcon.png",
+	"5007":"dragontail/img/perk-images/StatMods/StatModsCDRScalingIcon.png",
+	"5001":"dragontail/img/perk-images/StatMods/StatModsHealthScalingIcon.png",
+
+
+
+
+	"8100" : "7200_Domination.png",
+	"8126" : "dragontail/img/per-images/styles/Domination/CheapShot.png",
+	"8128" : "dragontail/img/per-images/styles/Domination/DarkHarvest.png",
+	"8112" : "dragontail/img/per-images/styles/Domination/Electrocute.png",
+	"8138" : "dragontail/img/per-images/styles/Domination/EyeBallCollection.png",
+	"8120" : "dragontail/img/per-images/styles/Domination/GhostPoro.png",
+	"8139" : "dragontail/img/per-images/styles/Domination/GreenTerror_TasteOfBlood.png",
+	"9923" : "dragontail/img/per-images/styles/Domination/HailOfBlades.png",
+	"8134" : "dragontail/img/per-images/styles/Domination/IngeniousHunter.png",
+	"8124" : "dragontail/img/per-images/styles/Domination/Predator.png",
+	"8105" : "dragontail/img/per-images/styles/Domination/RelentlessHunter.png",
+	"8143" : "dragontail/img/per-images/styles/Domination/SuddenImpact.png",
+	"8135" : "dragontail/img/per-images/styles/Domination/TreasureHunter.png",
+	"8106" : "dragontail/img/per-images/styles/Domination/UltimateHunter.png",
+	"8136" : "dragontail/img/per-images/styles/Domination/ZombieWard.png",
+
+
+
+
+	"8300": "dragontail/img/perk-images/styles/7203_Whimsy.png",
+	"8345": "dragontail/img/perk-images/styles/Inspiration/BiscuitDelivery.png",
+	"8347": "dragontail/img/perk-images/styles/Inspiration/CosmicInsight.png",
+	"8369": "dragontail/img/perk-images/styles/Inspiration/FirstStrike.png",
+	"8321": "dragontail/img/perk-images/styles/Inspiration/FutresMarket.png",
+	"8351": "dragontail/img/perk-images/styles/Inspiration/GlacialAugment.png",
+	"8306": "dragontail/img/perk-images/styles/Inspiration/HextechFlashtraption.png",
+	"8304": "dragontail/img/perk-images/styles/Inspiration/MagicalFootwear.png",
+	"8316": "dragontail/img/perk-images/styles/Inspiration/MinionDematerializer.png",
+	"8313": "dragontail/img/perk-images/styles/Inspiration/PerfectTiming.png",
+	"8352": "dragontail/img/perk-images/styles/Inspiration/TimeWarpTonic.png",
+	"8360": "dragontail/img/perk-images/styles/Inspiration/UnsealedSpellbook.png",
+	"8410": "dragontail/img/perk-images/styles/Inspiration/ApproachVelocity.png",
+
+
+	"precision":"dragontal/img/perk-images/styles/7021_precision.png",
+	"8010":"dragontal/img/perk-images/styles/Precision/Conqueror.png",
+	"8014":"dragontal/img/perk-images/styles/Precision/CoupDeGrace.png",
+	"8017":"dragontal/img/perk-images/styles/Precision/CutDown.png",
+	"8021":"dragontal/img/perk-images/styles/Precision/FleetFootWork.png",
+	"9104":"dragontal/img/perk-images/styles/Precision/LegendAlacrity.png",
+	"9103":"dragontal/img/perk-images/styles/Precision/LegendBloodline.png",
+	"9105":"dragontal/img/perk-images/styles/Precision/LegendTenacity.png",
+	"8008":"dragontal/img/perk-images/styles/Precision/LethalTempoTemp.png",
+	"9101":"dragontal/img/perk-images/styles/Precision/Overheal.png",
+	"8009":"dragontal/img/perk-images/styles/Precision/PresenceOfMind.png",
+	"8005":"dragontal/img/perk-images/styles/Precision/PressTheAttack.png",
+	"9111":"dragontal/img/perk-images/styles/Precision/Triumpth.png",
+	"8299":"dragontal/img/perk-images/styles/Precision/LastStand.png",
+
+
+
+	"sorcery":"dragontail/img/perk-images/styles/7202_Sorcery",
+	"8275":"dragontail/img/perk-images/styles/Sorcery/6361.png",
+	"8233":"dragontail/img/perk-images/styles/Sorcery/AbsoluteFocus.png",
+	"8229":"dragontail/img/perk-images/styles/Sorcery/ArcaneComet.png",
+	"8234":"dragontail/img/perk-images/styles/Sorcery/CelerityTemp.png",
+	"8236":"dragontail/img/perk-images/styles/Sorcery/GatheringStorm.png",
+	"8226":"dragontail/img/perk-images/styles/Sorcery/ManaFlowBand.png",
+	"8230":"dragontail/img/perk-images/styles/Sorcery/PhaseRush.png",
+	"8224":"dragontail/img/perk-images/styles/Sorcery/Pokeshield.png",
+	"8237":"dragontail/img/perk-images/styles/Sorcery/Scorch.png",
+	"8214":"dragontail/img/perk-images/styles/Sorcery/SummonAery.png",
+	"8210":"dragontail/img/perk-images/styles/Sorcery/Transcendence.png",
+	"8232":"dragontail/img/perk-images/styles/Sorcery/Waterwalking.png",
+	"8275":"dragontail/img/perk-images/styles/Sorcery/6361.png",
+
+
+	"resolve":"dragontail/img/perk-images/styles/7204_Resolve.png",
+	"bones":"dragontail/img/perk-images/styles/Resolve/IronSkin.png",
+	"8473":"dragontail/img/perk-images/styles/Resolve/BonePlating.png",
+	"chrysty":"dragontail/img/perk-images/styles/Resolve/Chrysalis.png",
+	"8429":"dragontail/img/perk-images/styles/Resolve/Conditioning.png",
+	"8446":"dragontail/img/perk-images/styles/Resolve/Demolish.png",
+	"8463":"dragontail/img/perk-images/styles/Resolve/FontOfLife.png",
+	"8437":"dragontail/img/perk-images/styles/Resolve/GraspOfTheUndying.png",
+	"8465":"dragontail/img/perk-images/styles/Resolve/Guardian.png",
+	"8401":"dragontail/img/perk-images/styles/Resolve/MirrorShell.png",
+	"8451":"dragontail/img/perk-images/styles/Resolve/Overgrowth.png",
+	"8453":"dragontail/img/perk-images/styles/Resolve/Revitalize.png",
+	"8444":"dragontail/img/perk-images/styles/Resolve/SecondWind.png",
+	"8242":"dragontail/img/perk-images/styles/Resolve/Unflinching.png",
+	"8439":"dragontail/img/perk-images/styles/Resolve/VeteranAftershock.png"
+}
