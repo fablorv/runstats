@@ -5,10 +5,6 @@
 	"5005":"./perk-images/StatMods/StatModsAttackSpeedIcon.png",
 	"5007":"./perk-images/StatMods/StatModsCDRScalingIcon.png",
 	"5001":"./perk-images/StatMods/StatModsHealthScalingIcon.png",
-
-
-
-
 	"8100" : "7200_Domination.png",
 	"8126" : "./perk-images/styles/Domination/CheapShot.png",
 	"8128" : "./perk-images/styles/Domination/DarkHarvest.png",
@@ -24,10 +20,6 @@
 	"8135" : "./perk-images/styles/Domination/TreasureHunter.png",
 	"8106" : "./perk-images/styles/Domination/UltimateHunter.png",
 	"8136" : "./perk-images/styles/Domination/ZombieWard.png",
-
-
-
-
 	"8300": "./perk-images/styles/7203_Whimsy.png",
 	"8345": "./perk-images/styles/Inspiration/BiscuitDelivery.png",
 	"8347": "./perk-images/styles/Inspiration/CosmicInsight.png",
@@ -41,8 +33,6 @@
 	"8352": "./perk-images/styles/Inspiration/TimeWarpTonic.png",
 	"8360": "./perk-images/styles/Inspiration/UnsealedSpellbook.png",
 	"8410": "./perk-images/styles/Inspiration/ApproachVelocity.png",
-
-
 	"precision":"./perk-images/styles/7021_precision.png",
 	"8010":"./perk-images/styles/Precision/Conqueror.png",
 	"8014":"./perk-images/styles/Precision/CoupDeGrace.png",
@@ -57,9 +47,6 @@
 	"8005":"./perk-images/styles/Precision/PressTheAttack.png",
 	"9111":"./perk-images/styles/Precision/Triumpth.png",
 	"8299":"./perk-images/styles/Precision/LastStand.png",
-
-
-
 	"sorcery":"./perk-images/styles/7202_Sorcery",
 	"8275":"./perk-images/styles/Sorcery/6361.png",
 	"8233":"./perk-images/styles/Sorcery/AbsoluteFocus.png",
@@ -74,8 +61,6 @@
 	"8210":"./perk-images/styles/Sorcery/Transcendence.png",
 	"8232":"./perk-images/styles/Sorcery/Waterwalking.png",
 	"8275":"./perk-images/styles/Sorcery/6361.png",
-
-
 	"resolve":"./perk-images/styles/7204_Resolve.png",
 	"bones":"./perk-images/styles/Resolve/IronSkin.png",
 	"8473":"./perk-images/styles/Resolve/BonePlating.png",
