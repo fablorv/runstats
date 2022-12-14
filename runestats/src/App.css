@@ -11,7 +11,7 @@
 	display:flex;
 	flex-direction:column;
 	width:40%;
-	margin-left:15%;
+	margin-left:10%;
 	margin-top:2%;
 	
 		
@@ -23,7 +23,7 @@
 .eachgame button{
 	background-color: #253237;
 	margin-left: 180%;
-	margin-top: -8.4%;
+	margin-top: -8.33%;
 	height: 4.8em;
 	
 }
@@ -34,6 +34,22 @@
 
 .statsnum{
 	display:inline;
+}
+
+
+.buttonstuff{
+	margin-top:15%;
+}
+
+.buttonstuff2{
+	margin-top:7%;
+	margin-bottom:5%;
+}
+.h1text{
+	margin-top:7%;
+}
+.h1text2{
+	margin-top:4%;
 }
 
 .games{
@@ -50,22 +66,28 @@
 	background-color:#5C6B73;
 	width:180%;
 	height:4em;
-
+	border-bottom-left-radius: 10px;
+    	border-top-left-radius: 10px;
 }
 .firstp img{
 	width:70%;
 }
 
 .allplayers{
-	width:10%;
+	width:5%;
+	border-bottom-right-radius: 10px;
+   	border-top-right-radius: 10px;
 }
 .champspic{
 	width:50px;
 	border-radius:100%;
-}
+	}
 .champpic{
 	width:50px;
 	border-radius:100%;
+	margin-top:2%;
+	margin-left:15%;
+
 }
 
 .headerapart{
@@ -86,6 +108,11 @@
 
 .games p{
 	margin:0;
+}
+
+.numinput{
+	background-color:black;
+	color:white;
 }
 
 .tb {
