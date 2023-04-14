@@ -16,6 +16,7 @@ let app = express()
 app.use(cors())
 
 const ap_key = process.env.myapi
+console.log(process.env.myapi)
 //get the name and how many games to look down from the user
 app.get('/gameinfo' , async (req, res) =>{
 	const playerName = req.query.username
