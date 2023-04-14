@@ -6,7 +6,10 @@ const axios = require('axios')
 const fetchUrl = require("fetch").fetchUrl
 
 
-
+let troll = [1,2,3,5]
+if(true){
+	console.log(troll)
+}
 
 let app = express()
 
