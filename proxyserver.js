@@ -56,20 +56,8 @@ app.get('/gameinfo' , async (req, res) =>{
 
 
 
-//	const gamedetail = await gamedetails()
-//	console.log(gamedetail)
 	res.send(users)
 })
-//
-//app.get('/past5games', async (req, res) => {
-//	const playername = "lvoely"
-//	const PUUID = await getplayerpuuid(playername)
-//	const api_call = "europe.api.riotgames.com" + "/lol/matches/by-puuid/" + PUUID + "ids" + "?api_key" + ap_key
-//	const gameIDS = await axios.get(api_call).then(response => response.data).catch(err => err) 
-//	console.log(gameIDS);
-//
-//})
-//
 app.listen(4000, function () {
 	console.log("server start")
 })

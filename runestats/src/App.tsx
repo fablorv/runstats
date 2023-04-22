@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import axios from 'axios';
-import runesplace from './runesplace.json'
 
 //import somerune from "../src/perk-images/styles/Precision/CutDown.png"
 
@@ -25,8 +24,7 @@ function App() {
 			console.log(error);
 		})
 	}
-	let propo = [gameinfo, name]	
-	let imgsrc:string = runesplace[5001]
+	console.log(gameinfo)
 	
   return (
     <div className="App">
@@ -47,91 +45,10 @@ function App() {
 			  <input className="numinput" type="number" min="1" max="20" onChange={e => setMore(e.currentTarget.value)}></input>
 		</div>
 	</div>
-	  <Runes className="runes" {...propo}/>
 
     </div>
   );
 }
 
-function Runes(propo: any){
-	const [testo, setTesto] = useState<any>()
-	const [playersinf, setPlayersinf] = useState<any>()
-	const [truerune, setTruerune] = useState<any>()
-	const [valueresult, setValueresult] = useState<any>()
-	const [playerscond, setPlayerscond] = useState<any>()
-	const [condofcond, setCondofcond] = useState<any>()
-	
-
-	const [eachgame , setEachgame] = useState<any>()
-	let result:any
-
-	let propsy = propo[0]
-	console.log(propo, "this is the props ig")	
-
-
-	useEffect(()=>{
-		 async function getinfing(){
-
-			console.log("testing props",propo)
-			let i =  propsy[1].info.participants.findIndex((e:any) => e.puuid === propo[0][0])
-			const valuee = new Array<any>()
-			let playersinfo = new Array<any>()
-			const numbers = new Array<Number>()
-			let imgplayers:any
-			const res = []	
-		}
-		getinfing()
-		console.log(playerscond,"this is hte function")
-
-					
-	},[propsy])
-
-	useEffect(() => {
-		async function sliceIntoChunks(arr, chunkSize) {
-			    const res : string[] = [];
-			    const cond : boolean = [];
-			    for (let i = 0; i < arr.length; i += chunkSize) {
-				const chunk =  arr.slice(i, i + chunkSize);
-				res.push(chunk);
-				cond.push(false)
-			    }
-			    setEachgame(res)
-			    setPlayerscond(cond)
-			    return {eachgame};
-		}
-		sliceIntoChunks(playersinf, 10)
-	},[playersinf])
-	
-	useEffect(() => {
-
-		function testingt(){
-			if(playerscond){
-				const nextCounters = playerscond.map((c, i) => {
-				      if (i === condofcond) {
-					// Increment the clicked counter
-					return !c;
-				      } else return c;
-						})
-				 setPlayerscond(nextCounters)
-			}else console.log("not yet ")
-		}
-		
-		testingt()
-	},[condofcond])
-
-		
-
-		
-	console.log("condition",playerscond, "each game ig", eachgame)
-	return(
-		<div className="runes">
-					
-				{ eachgame ? testo.map((paths:string, index:number) => <><div className="eachgame">{paths}{playerscond[index] ? <div className="detailplayers" >{eachgame[index]} </div>: <p style={{display:'none'}}></p>} <button  onClick={()=> setCondofcond(index) } className="allplayers">{playerscond[index] ? '-' : '+'}</button></div></>) :<p>Laoding. . . </p>}
-				
-
-		</div>
-	)
-	
-}
 
 export default App;
